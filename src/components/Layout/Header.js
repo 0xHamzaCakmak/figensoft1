@@ -13,6 +13,7 @@ import { useSelector } from "react-redux";
 function Header() {
   const { user } = useSelector((state) => state.auth);
   console.log("header mail: ", user.user.email);
+  console.log("last login body:", user.user.lastLoginAt)
 
   return (
     <div className="header-bodyy">
@@ -64,7 +65,7 @@ function Header() {
               <p className="user-email">{user.user.email}</p>
             </div>
           </div>
-          <img className="user-account-img" src={userpp}></img>
+          <img className="user-account-img" src={userpp} alt="logo"></img>
           
         </nav>
       </div>

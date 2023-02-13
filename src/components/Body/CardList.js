@@ -15,17 +15,17 @@ const CardAccount = () => {
   return (
     <div className="CardAccount">
       <div className="account-img-group">
-        <img className="card-account-img" src={notprofile}></img>
+        <img className="card-account-img" src={notprofile} alt="logo"></img>
       </div>
       <div className="card-firma-adi">Posta Güvercini Ltd. Şti.</div>
       <div className="card-user-name">User Ad Soyad</div>
       <div className="btn-account-group">
         <button className="btn-account">
-          <img className="icon-account" src={plug}></img>
+          <img className="icon-account" src={plug}  alt="logo"></img>
           Partnership
         </button>
         <button className="btn-account">
-          <img className="icon-account" src={setting}></img>
+          <img className="icon-account" src={setting} alt="logo"></img>
           Account Settings
         </button>
       </div>
@@ -78,7 +78,7 @@ const CardBulkSMS = () => {
   return (
     <div className="products">
       <div className="product-sms">
-        <img className="card-product-img" src=""></img>
+        <img className="card-product-img" src="" alt="logo"></img>
         <div className="card-product-header">Bulk SMS</div>
         <div className="card-product-description">
           Reach your audiences by sending SMS
@@ -86,7 +86,7 @@ const CardBulkSMS = () => {
         <div className="btn-shopping-group">
           <button className="btn-shopping">
             <div className="btn-top-line"></div>
-            <img className="product-shopping-icon" src={shopping}></img>
+            <img className="product-shopping-icon" src={shopping} alt="logo"></img>
           </button>
         </div>
       </div>
@@ -96,7 +96,7 @@ const CardBulkSMS = () => {
 const CardContacts = () => {
   return (
     <div className="products">
-      <img className="card-product-img" src=""></img>
+      <img className="card-product-img" src="" alt="logo"></img>
       <div className="card-product-header">Contacts</div>
       <div className="card-product-description">
         Easily manage your contacts
@@ -104,7 +104,7 @@ const CardContacts = () => {
       <div className="btn-shopping-group-contacts">
         <button className="btn-shopping">
           <div className="btn-top-line"></div>
-          <img className="product-shopping-icon" src={shopping}></img>
+          <img className="product-shopping-icon" src={shopping} alt="logo"></img>
         </button>
       </div>
     </div>
@@ -113,7 +113,7 @@ const CardContacts = () => {
 const CardEmail = () => {
   return (
     <div className="products">
-      <img className="card-product-img" src=""></img>
+      <img className="card-product-img" src="" alt="logo"></img>
       <div className="card-product-header">Email</div>
       <div className="card-product-description">
         Send your bulk e-mails quickly
@@ -121,7 +121,7 @@ const CardEmail = () => {
       <div className="btn-shopping-group-email">
         <button className="btn-shopping">
           <div className="btn-top-line"></div>
-          <img className="product-shopping-icon" src={shopping}></img>
+          <img className="product-shopping-icon" src={shopping} alt="logo"></img>
         </button>
       </div>
     </div>
@@ -130,7 +130,7 @@ const CardEmail = () => {
 const CardMMS = () => {
   return (
     <div className="products">
-      <img className="card-product-img" src=""></img>
+      <img className="card-product-img" src="" alt="logo"></img>
       <div className="card-product-header">MMS</div>
       <div className="card-product-description">
         Easily send multimedia messages to your customers
@@ -138,7 +138,7 @@ const CardMMS = () => {
       <div className="btn-shopping-group-mms">
         <button className="btn-shopping">
           <div className="btn-top-line"></div>
-          <img className="product-shopping-icon" src={shopping}></img>
+          <img className="product-shopping-icon" src={shopping} alt="logo"></img>
         </button>
       </div>
     </div>
@@ -147,7 +147,7 @@ const CardMMS = () => {
 const CardIntegration = () => {
   return (
     <div className="products">
-      <img className="card-product-img" src=""></img>
+      <img className="card-product-img" src="" alt="logo"></img>
       <div className="card-product-header">Integration</div>
       <div className="card-product-description">
         Integrate your systems with our comprehensive APIs
@@ -155,7 +155,7 @@ const CardIntegration = () => {
       <div className="btn-shopping-group-integration">
         <button className="btn-shopping">
           <div className="btn-top-line"></div>
-          <img className="product-shopping-icon" src={shopping}></img>
+          <img className="product-shopping-icon" src={shopping} alt="logo"></img>
         </button>
       </div>
     </div>
@@ -165,7 +165,7 @@ const CardConsentManagement = () => {
   return (
     <div className="products">
       <div className="product-management">
-        <img className="card-product-img" src=""></img>
+        <img className="card-product-img" src="" alt="logo"></img>
         <div className="card-product-header">Consent Management</div>
         <div className="card-product-description">
           Manage your KVVK ETK consents
@@ -173,7 +173,7 @@ const CardConsentManagement = () => {
         <div className="btn-shopping-group-consent-management">
           <button className="btn-shopping">
             <div className="btn-top-line"></div>
-            <img className="product-shopping-icon" src={shopping}></img>
+            <img className="product-shopping-icon" src={shopping} alt="logo"></img>
           </button>
         </div>
       </div>
@@ -183,7 +183,7 @@ const CardConsentManagement = () => {
 const CardOnlineConsent = () => {
   return (
     <div className="products">
-      <img className="card-product-img" src=""></img>
+      <img className="card-product-img" src="" alt="logo"></img>
       <div className="card-product-header">Online Consent</div>
       <div className="card-product-description">
         Collect consents from your customers electronically
@@ -191,7 +191,7 @@ const CardOnlineConsent = () => {
       <div className="btn-shopping-group-online-consent">
         <button className="btn-shopping">
           <div className="btn-top-line"></div>
-          <img className="product-shopping-icon" src={shopping}></img>
+          <img className="product-shopping-icon" src={shopping} alt="logo"></img>
         </button>
       </div>
     </div>
@@ -200,7 +200,7 @@ const CardOnlineConsent = () => {
 const CardSurvey = () => {
   return (
     <div className="products">
-      <img className="card-product-img" src=""></img>
+      <img className="card-product-img" src="" alt="logo"></img>
       <div className="card-product-header">Survey</div>
       <div className="card-product-description">
         Create advanced surveys and collect data
@@ -208,7 +208,7 @@ const CardSurvey = () => {
       <div className="btn-shopping-group-survey">
         <button className="btn-shopping">
           <div className="btn-top-line"></div>
-          <img className="product-shopping-icon" src={shopping}></img>
+          <img className="product-shopping-icon" src={shopping}alt="logo"></img>
         </button>
       </div>
     </div>
@@ -217,7 +217,7 @@ const CardSurvey = () => {
 const CardHelpDesk = () => {
   return (
     <div className="products">
-      <img className="card-product-img" src=""></img>
+      <img className="card-product-img" src="" alt="logo"></img>
       <div className="card-product-header">Help Desk</div>
       <div className="card-product-description">
         Manage your tickets, support your customers easily
@@ -225,7 +225,7 @@ const CardHelpDesk = () => {
       <div className="btn-shopping-group-helpdesk">
         <button className="btn-shopping">
           <div className="btn-top-line"></div>
-          <img className="product-shopping-icon" src={shopping}></img>
+          <img className="product-shopping-icon" src={shopping} alt="logo"></img>
         </button>
       </div>
     </div>
@@ -234,7 +234,7 @@ const CardHelpDesk = () => {
 const CardKnowledgeBase = () => {
   return (
     <div className="products">
-      <img className="card-product-img" src=""></img>
+      <img className="card-product-img" src="" alt="logo"></img>
       <div className="card-product-header">Knowledge Base</div>
       <div className="card-product-description">
         Gather your information system on a single solution
@@ -242,7 +242,7 @@ const CardKnowledgeBase = () => {
       <div className="btn-shopping-group-knowledge">
         <button className="btn-shopping">
           <div className="btn-top-line"></div>
-          <img className="product-shopping-icon" src={shopping}></img>
+          <img className="product-shopping-icon" src={shopping} alt="logo" ></img>
         </button>
       </div>
     </div>
