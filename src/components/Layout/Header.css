@@ -1,0 +1,119 @@
+.header-body{
+  height: 12vh;
+  background-color: #4d4e7e;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin-left: 7%;
+}
+.header-bodyy{
+    background-color: #4d4e7e;
+}
+.logo-container{
+    flex:0.5;
+    
+}
+.logo-postaguvercin{
+    margin-left: 5px;
+    font: initial;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    
+}
+.logo-ve-firmaismi{
+    display: flex;
+}
+.version-text{
+    font-size: smaller;
+    text-align: left;
+    color: #9a9dc7;
+}
+img{
+    width: 8vh;
+    height: 6vh;
+}
+.icon-container{
+    width: 20px;
+    height: 20px;
+}
+.menu-container{
+    margin-left: 100px;
+    flex: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul {
+    list-style:none;
+}
+li{
+    list-style:none;
+}
+#pg{
+    color: #fdfdff;
+}
+ul li {
+    float:left;
+    color: #FFF;
+}
+    
+ul li:not(:first-child) {
+    margin-left: 20px;
+}
+
+button {
+    background-color:#BEE5BF;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+}
+.firma-table{
+    background-color: #3d3c64;
+    margin-left: 50px;
+}
+.th-firma{
+    background-color: #474477;
+    height: 6vh;
+    width: 100px;
+    font-size: smaller;
+    text-align: center;
+    color: #FFF;
+    font-weight:inherit;
+}
+.tr-table{
+    border: none;
+}
+.th-postaguvercini{
+    text-align: left;
+    width: 250px;
+    padding-left: 12px;
+    font-size: smaller;
+    color: #FFF;
+    font-weight:inherit;
+
+}
+.user-adsoyad{
+    font-size: larger;
+    font-weight: bold;
+    color: #cfcfef;
+    float: right;
+}
+.user-email{
+    margin-left: 250px;
+    color: #cfcfef;
+    font-weight: bold;
+    font-size: smaller;
+}
+.user-account-img{
+    border: 3px solid #2e2d4b;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-left: -40px;
+}

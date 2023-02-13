@@ -1,0 +1,235 @@
+.card-container {
+  margin-top: 20px;
+}
+.body-background-top {
+  background-color: #474672;
+}
+.body-background-bottom {
+  background-color: #f4f5f7;
+}
+/* Account Side Bar*/
+.card-sidebar {
+  margin-left: 10%;
+  width: 15%;
+  float: left;
+}
+.CardAccount {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 380px;
+  background-color: #fff;
+}
+.account-img-group{
+  border-radius: 50%;
+  border: 5px solid #f4f4f4;
+  margin-top: 25px;
+  margin-left: 50px;
+  width: 145px;
+  height: 145px;
+}
+.card-account-img{
+margin-left: 5px;
+margin-top: 5px;
+background-color: #f4f4f4;
+border-radius: 50%;
+height: 125px;
+width: 125px;
+}
+.card-firma-adi {
+ margin: auto;
+  margin-top: 20px;
+  color: #797d7f;
+}
+.card-user-name {
+  margin: auto;
+  color: #a4a8ac;
+}
+.btn-account-group {
+  margin-bottom: 20px;
+}
+.btn-account {
+  background-color: #f7f7f7;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #b6babc;
+}
+.icon-account {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+.card-login-log {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 160px;
+  margin-top: 15px;
+  background-color: #fff;
+  color: #b6babc;
+}
+.last-login {
+  margin-top: 30px;
+  margin: auto;
+  color: #a6aaad;
+}
+.card-technology-header {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.card-technology-message {
+  font-weight: bold;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.card-technology {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 220px;
+  margin-top: 15px;
+  background-color: #fff;
+  background-color: #4d4e7e;
+  text-align: center;
+  font-size: smaller;
+  color: #b6babc;
+}
+/* Body */
+.card-message-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  text-align: left;
+  color: #c6cae7;
+  font-weight: bold;
+}
+.card-message-blog {
+  display: flex;
+  text-align: center;
+  font-size: smaller;
+  height: 60px;
+  border-radius: 0.5em;
+  background-color: #4f4c7f;
+}
+
+.products:not(:first-child) {
+  flex-direction: column;
+  width: 220px;
+  height: 380px;
+  margin-left: 20px;
+  background-color: #fff;
+}
+.product-sms {
+  width: 220px;
+  height: 400px;
+  background-color: #fff;
+  margin-top: -20px;
+}
+.product-management {
+  width: 220px;
+  height: 400px;
+  background-color: #fff;
+  margin-top: -20px;
+}
+.card-product-menu {
+  margin-left: 30px;
+  margin-right: 10%;
+  width: 85%;
+  float: right;
+}
+.card-list-body {
+  display: flex;
+  margin-top: 20px;
+  background-color: #f4f5f7;
+}
+.card-product-5 {
+  display: flex;
+  margin-top: 20px;
+}
+.card-product-10 {
+  display: flex;
+  margin-top: 40px;
+}
+/* Product desing*/
+.card-product-img{
+    width: 140px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.card-product-header{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: #706f7f;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card-product-description{
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-weight: bold;
+    color: #9ea3a6;
+    text-align: center;
+    
+}
+.btn-top-line{
+    width: 220px;
+    height: 0.5em;
+    margin-left: -20px;
+    margin-top: -5px;
+    background-color: #0d8b55;
+}
+.btn-shopping {
+    width: 220px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #0fad6a;
+  }
+  .btn-shopping-group{
+    margin-top: 60px;
+  }
+  .btn-shopping-group-contacts{
+    margin-top: 40px;
+  }
+  .btn-shopping-group-email{
+    margin-top: 40px;
+  }
+  .btn-shopping-group-mms{
+    margin-top: 15px;
+  }
+  .btn-shopping-group-integration{
+    margin-top: 15px;
+  }
+  .btn-shopping-group-consent-management{
+    margin-top: 28px;
+  }
+  .btn-shopping-group-online-consent{
+    margin-top: 23px;
+  }
+  .btn-shopping-group-survey{
+    margin-top: 23px;
+  }
+  .btn-shopping-group-helpdesk{
+    margin-top: 23px;
+  } .btn-shopping-group-knowledge{
+    margin-top: -15px;
+  }
+
+  .product-shopping-icon{
+    margin-top: 6px;
+    height: 4vh;
+    width: 4vh;
+    margin-left: 70px;
+  }
