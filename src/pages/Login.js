@@ -19,7 +19,7 @@ export default function Login() {
     const user = await login(email, password);
     dispatch(loginHandle(user));
     console.log(loginHandle(user))
-    navigate('/',{
+    navigate('/home',{
       replace: true
     })
   };
@@ -28,7 +28,7 @@ export default function Login() {
     await logout()
     dispatch(logoutHandle())
     console.log(loginHandle())
-    navigate('/login', {
+    navigate('/', {
       replace: true
     })
   }
