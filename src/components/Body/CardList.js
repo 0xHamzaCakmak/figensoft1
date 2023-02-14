@@ -70,10 +70,7 @@ const CardMessage = () => {
     </div>
   );
 };
-{
-  /* Benzer  şekilde 10 Farklı hizmet Card. Databaseden Çekilebilir Array 
-    Hizmet ürünü sepete eklenmiş ise Sepet butonu gizle*/
-}
+
 const CardBulkSMS = () => {
   return (
     <div className="products">

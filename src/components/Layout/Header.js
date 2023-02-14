@@ -7,7 +7,6 @@ import notification from "../../Assets/icon-notification.png";
 import search from "../../Assets/icon-search.png";
 import userpp from "../../Assets/icon-user.png";
 
-import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 function Header() {
